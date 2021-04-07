@@ -1,0 +1,460 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.header {
+    height: 70px;
+    background: #000;
+  }
+  
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.header-logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #f2f2f2;
+    line-height: 70px;
+  }
+  
+.header-nav ul{
+    display: flex;
+  }
+  
+.header-nav li {
+    margin-right: 35px;
+    font-size: 17px;
+  }
+  
+.header-nav a {
+    color: #f2f2f2;
+  }
+
+#eyecatch {
+    height: 900px;
+    background: url(../img/eyecatch.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+  
+.banner {
+      display: flex;
+      justify-content: flex-end;
+  }
+.maschine {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-family: Times New Roman, "ＭＳ Ｐゴシック";
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1;
+  }
+
+.newstitle {
+    position: absolute;
+    height: 80px;
+    width: 1000px;
+    bottom: 0;
+    font-family: Times New Roman, "ＭＳ Ｐゴシック";
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+.newstext {
+    line-height: 40px;
+}
+
+.news {
+    position: absolute;
+    height: 80px;
+    width: 180px;
+    bottom: 0;
+    text-align: center;
+    color:white;
+    background-color: black;
+    line-height: 80px;
+}
+
+#mission {
+    position: relative;
+    height: 600px;
+    background-color: black;
+}
+
+.missionimg img {
+    position: absolute;
+    left: 1000px;
+    width: 750px;
+    top: 160px;
+    object-fit: cover;
+}
+
+.missiontitle {
+    position: absolute;
+    color: white;
+}
+
+.mission-txt h1,
+.mission-txt p {
+    position: absolute;
+    margin-bottom: 50px;
+    color: white;
+    width: 50%;
+    padding-left: 18%;
+    line-height: 30px;
+}
+
+.mission-txt h1{
+    font-size: 30px;
+    top: 40%;
+}
+
+.mission-txt p {
+    top: 50%;
+}
+
+.mission-detail {
+    position: absolute;
+    top: 70%;
+    left: 18%;
+    padding: 15px 25px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.space {
+    background-color: white;
+    height: 200px;
+}
+
+.service {
+    position: relative;
+    background-color: rgb(219, 219, 219);
+    height: 1600px;
+}
+
+.service h1 {
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.service-img1 img{
+    display: block;
+    width: 900px;
+    float: right;
+    object-fit: cover;
+}
+
+.service-box1 {
+    position: absolute;
+    width: 35%;
+    background-color: white;
+    padding: 70px;
+    top: 10%;
+    left: 16%;
+}
+
+.service-txt-title {
+    font-weight: bold;
+}
+
+.service p {
+    line-height: 30px;
+}
+
+.service-txt1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.service-detail {
+    float: right;
+    border: 1px solid;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.service-img2 img {
+    display: block;
+    width: 1000px;
+    float: right;
+    margin-top: 40%;
+    object-fit: cover;
+}
+
+.service-box2 {
+    position: absolute;
+    width: 35%;
+    background-color: white;
+    padding: 70px;
+    top: 60%;
+    left: 40%;
+}
+
+.service-txt-title {
+    font-weight: bold;
+}
+
+.service p {
+    line-height: 30px;
+}
+
+.service-txt2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.link-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company {
+    position: relative;
+}
+
+.company img {
+    position: relative;
+    width: 850px;
+    height: 300px;
+    object-fit: cover;
+    margin: 100px 0px;
+}
+
+.company p {
+    position: absolute;
+}
+
+.recruit img {
+    width: 850px;
+    height: 300px;
+    object-fit: cover;
+    margin: 100px 0px;
+}
+
+.recruit p {
+    position: absolute;
+}
+
+.faq {
+    position: relative;
+    height: 150px;
+    background-color: black;
+    margin: 160px 190px;
+}
+
+.faq p {
+    position: absolute;
+    color: white;
+}
+
+.faq-text1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 80px;
+    top: 50%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.faq-text2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-size: 20px;
+}
+
+.contact {
+    background: url(../img/contact-bg.jpg) no-repeat;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.contact-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    line-height: 20px;
+}
+
+.contact-txt1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.contact-txt2 {
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.contact-txt3 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.contact-link {
+    border: 1px solid;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: bold;                        
+}
+
+.footer {
+    height: 70px;
+    background: #000;
+  }
+  
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #f2f2f2;
+    line-height: 70px;
+  }
+  
+.footer-nav ul{
+    display: flex;
+  }
+  
+.footer-nav li {
+    margin-right: 35px;
+    font-size: 17px;
+  }
+  
+.footer-nav a {
+    color: #f2f2f2;
+  }
+
+.copywrite {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
